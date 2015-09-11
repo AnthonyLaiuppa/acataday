@@ -2,7 +2,7 @@
 {% import "bootstrap/utils.html" as util %}
 {% import "bootstrap/fixes.html" as fixes %}
 {% import "bootstrap/wtf.html" as wtf %}
-
+{% block title %} a cat a day {% endblock %}
 {% block content %}
 {{util.flashed_messages(dismissible=True)}}
 
@@ -12,9 +12,9 @@
     <div class="jumbotron">
       <h1>a cat a day</h1>
       <hr>
-      <p>A simple flask app with a cron job that cycles cat pictures. Because we can. One cat every day. </p>
+      <p>Hi, this is flask app updates itself daily with new cat pictures. A cat a day, and heres todays :D </p>
       <p>
-        <img src = "../static/catpic.jpg">
+        <img src = "../static/catpic.jpg" alt="cute cat">
       </p>
     </div></div></div>
 {% endblock %}
