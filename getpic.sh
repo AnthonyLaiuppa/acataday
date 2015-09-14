@@ -10,7 +10,7 @@ ls -a
 echo 'Created past dir\n' 
 cd ../
 mv static/catpic.jpg past/$DATE
-mv static/catpic.jpg past/$DATE
+
  
 mv catpic.jpg static
 echo ' Cat picture generated' 
